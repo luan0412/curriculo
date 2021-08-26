@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.div1 h2{
+    font-size: 20px;
+    color: #19304f;
+}
+h3{
+    color: #19304f;
+}
+p{
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+
+    padding: 29px;
+    background-color: white;
+    height: 95vh;
+    width: 40%;
+    
+}
+.nome{
+    display: flex;
+    align-items: center;
+}
+.subnome{
+    padding: 15px;
+}
+.nome img{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    
+}
+.setores{
+    padding-top: 27px;
+}
+.setores p{
+    padding-top: 8px;
+    color: black;
+}
+.setores ul{
+    padding-left: 15px;
+}
+.setores li{
+    color: hsl(214, 52%, 20%);
+}
+.div2{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 95vh;
+    background-color: #19304f;
+    color: white;
+}
+.contato{
+    padding: 20px;
+    width: 70%;
+}
+.contato h2{
+    margin-bottom: 10px;
+}
+.contato img{
+    margin-top: 20px;
+}
+.contato a{
+    margin: 7px
+}
+.conhecimentos{
+    padding: 20px;
+}
+.conhecimentos h2{
+    margin-bottom: 10px;;
+}
+.range{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}

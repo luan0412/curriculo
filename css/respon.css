@@ -1,0 +1,15 @@
+
+@media(max-width:1200px){
+    body{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .div1{
+        width: 90%;
+    }
+    .div2{
+        width: 90%;
+        align-items: flex-start;
+    }
+}
