@@ -1,15 +1,77 @@
-
-@media(max-width:1200px){
+@media(max-width:960px) {
     body{
         flex-direction: column;
         height: auto;
 
     }
     .div1{
-        width: 90%;
+        height: auto;
+        width: 80%;
+    }
+    .div1 p{
+        font-size: 12px;
     }
     .div2{
+        align-items: center;
+        text-align: center;
+        width: 60%;
+        
+        align-items: center;
+    }
+    .conhecimentos{
+        
+        align-items: center;
+        text-align: center;
+    }
+}
+@media(max-width:1120px) {
+    body{
+    
+        height: 95vh;
+
+    }
+    .div1{
+        height: auto;
+        width: 70%;
+    }
+    .div1 p{
+        font-size: 12px;
+    }
+    .div2{
+        align-items: center;
+        text-align: center;
+       height: 84.4vh;
+        align-items: center;
+    }
+    .conhecimentos{
+        
+        align-items: center;
+        text-align: center;
+    }
+}
+@media(max-width:520px) {
+    body{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .div1{
+        height: auto;
+        width: 90%;
+    }
+    .div1 p{
+        font-size: 12px;
+    }
+    .div2{
+        align-items: center;
+        text-align: center;
         width: 90%;
         align-items: flex-start;
     }
+    .conhecimentos{
+        
+        align-items: center;
+        text-align: center;
+    }
 }
+    

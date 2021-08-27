@@ -43,17 +43,27 @@ body{
     
 }
 .setores{
-    padding-top: 27px;
+    padding-top: 20px;
 }
 .setores p{
-    padding-top: 8px;
+    padding-top: 5px;
     color: black;
+}
+.setores a{
+    text-decoration: none;
+    color: hsl(214, 52%, 20%) ;
+
 }
 .setores ul{
     padding-left: 15px;
 }
 .setores li{
     color: hsl(214, 52%, 20%);
+}
+.subtitulo{
+    opacity: 0.75;
+    font-size: 13px;
+    margin-left: 15px;
 }
 .div2{
     flex-direction: column;
@@ -67,24 +77,52 @@ body{
 }
 .contato{
     padding: 20px;
-    width: 70%;
+    width: 86%;
 }
 .contato h2{
     margin-bottom: 10px;
 }
-.contato img{
+
+#email{
+    font-size: 15px;
+
+}
+.cont{
+    margin-left: 2px;
+    width: 15px;
+}
+.links{
+    margin-left: 7px;
     margin-top: 20px;
+    width: 25px;
 }
-.contato a{
-    margin: 7px
+.links:hover{
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
 }
+
 .conhecimentos{
+    width: 85%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
     padding: 20px;
 }
 .conhecimentos h2{
     margin-bottom: 10px;;
 }
+.conhecimentos p{       
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.conhecimentos p:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 .range{
+    
     width: 100%;
     height: 2px;
     background-color: white;
